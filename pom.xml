@@ -31,9 +31,16 @@
 		<spring-cloud.version>2025.1.2</spring-cloud.version>
 	</properties>
 	<dependencies>
+		<!-- Spring Cloud Config Server -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
+
+		<!-- Eureka Discovery Client (මෙය අලුතින් එකතු විය) -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
